@@ -1,4 +1,5 @@
 
+
 <%@page import="entity.MedicalService"%>
 <%@page import="java.util.Arrays"%>
 <%@page import="java.util.List"%>
