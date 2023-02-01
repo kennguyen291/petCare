@@ -19,54 +19,53 @@
 
 	<div class="container ">
 
-		<div class="container border border-dark border-1 p-3 m-3 position-relative">
+		<div
+			class="container border border-dark border-1 p-3 m-3 position-relative">
 			<div class="row">
 				<form action="BookingDetailServlet">
 					<div class="mb-3">
-						<label for="customerName" class="form-label">Your
-							Name</label> 
-							 <input type=text class="form-control mb-2"
-							id="firstName" name="firstName" placeholder ="First Name">
-							
-								 <input type="text" class="form-control"
-							id="lastName" name="lastName" placeholder ="Last Name">
+						<label for="customerName" class="form-label">Your Name</label> <input
+							type=text class="form-control mb-2" id="firstName"
+							name="firstName" placeholder="First Name"> <input
+							type="text" class="form-control" id="lastName" name="lastName"
+							placeholder="Last Name">
 
 					</div>
 					<div class="mb-3">
-						<label for="contactDetail" class="form-label">Contact Details</label>
-						 <input type="email" class="form-control mb-2"
-							id="email" name="email" placeholder ="Email Address">
-							
-								 <input type="tel" class="form-control"
-							id="phoneNumber" name="phoneNumber" placeholder ="Phone Number">
+						<label for="contactDetail" class="form-label">Contact
+							Details</label> <input type="email" class="form-control mb-2" id="email"
+							name="email" placeholder="Email Address"> <input
+							type="tel" class="form-control" id="phoneNumber"
+							name="phoneNumber" placeholder="Phone Number">
 					</div>
-					
+
 					<div class="mb-3">
-						<label for="petType" class="form-label">Pet Type</label>
-						<select class="form-select" id="petType" name="petType">
-						  <option selected>Choose your pet type...</option>
-						  <option value="1">Dog</option>
-						  <option value="2">Cat</option>
-						  <option value="3">Bird</option>
+						<label for="petType" class="form-label">Pet Type</label> <select
+							class="form-select" id="petType" name="petType">
+							<option selected>Choose your pet type...</option>
+							<option value="1">Dog</option>
+							<option value="2">Cat</option>
+							<option value="3">Bird</option>
 						</select>
 					</div>
-					
-						<div class="mb-5">
-						<label for="appointmentType" class="form-label">Appointment Type</label>
-						<select class="form-select" id="appoinmentType" name="appoinmentType" >
-						  <option selected>Choose your appoinment type...</option>
-						  <option value="1">Vaccination</option>
-						  <option value="2">Consultation - Check up simple issue</option>
-						  <option value="3">Consultation - Sick / Injured Pets</option>
+
+					<div class="mb-5">
+						<label for="appointmentType" class="form-label">Appointment
+							Type</label> <select class="form-select" id="appoinmentType"
+							name="appointmentType">
+							<option selected>Choose your appointment type...</option>
+							<option value="1">Vaccination</option>
+							<option value="2">Consultation - Check up simple issue</option>
+							<option value="3">Consultation - Sick / Injured Pets</option>
 							<option value="4">New Pet Boarding</option>
 						</select>
 					</div>
-					
-					
-				
+
+
+
 					<button type="submit" class="btn btn-primary">Next</button>
-			
-					
+
+
 				</form>
 
 
