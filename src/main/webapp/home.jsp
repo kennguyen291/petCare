@@ -1,5 +1,5 @@
 
-<%@page import="entity.MedicalService"%>
+<%@page import="main.java.entity.MedicalService"%>
 <%@page import="java.util.Arrays"%>
 <%@page import="java.util.List"%>
 <%@page import="java.util.ArrayList"%>
@@ -28,7 +28,7 @@
 		<hr>
 		<h1>OUR SERVICES</h1>
 			<!-- common service -->
-			<jsp:include page="components/common.service.jsp" />
+			<jsp:include page="components/commonService.jsp" />
 			
 			<!-- ends -->
 	</div>

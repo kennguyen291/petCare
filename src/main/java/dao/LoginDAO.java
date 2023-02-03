@@ -1,10 +1,10 @@
-package dao;
+package main.java.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
-import util.MySqlDBConnector;
+import main.java.util.MySqlDBConnector;
 
 
 
